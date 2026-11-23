@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Felipe de Castro Gomes</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2>Portfólio</h2>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Olá, eu sou Felipe</h1>
+            <p>Estudante de Sistemas de Informação | Desenvolvedor Web</p>
+            <a href="#sobre" class="btn-saiba-mais">Saiba Mais</a>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <img src="img/img.1.jpeg" alt="Foto de perfil de Felipe de Castro Gomes">
+            <p>
+                Me chamo Felipe de Castro Gomes, tenho 20 anos e sempre tive interesse pela área de informática e tecnologia. Hoje divido a rotina entre o trabalho administrativo e a graduação em Sistemas da Informação na UDF, unindo organização com a vontade de entender e criar soluções tecnológicas. Fora da rotina de trabalho e estudos, sou torcedor fanático do Flamengo e curto acompanhar futebol, além de ser apaixonado por carros e motos.
+            </p>
+        </section>
+
+        <section id="hobbies">
+            <h2>Meus Hobbies</h2>
+            
+            <article class="card-hobby">
+                <h3>Futebol</h3>
+                <img src="img/img.2.jpeg" alt="Partida de futebol em campo de gramado">
+                <p>
+                    O futebol sempre fez parte da minha história. Desde cedo, o esporte esteve presente na minha vida — não só assistindo e acompanhando tudo de perto, mas também entrando em campo e jogando. Essa vivência cria uma conexão diferente com o jogo, com a resenha e com a adrenalina de cada lance. E, claro, essa paixão ganha ainda mais força por ser torcedor fanático do Flamengo: ver o Mengão jogar é sempre um momento especial, seja na arquibancada, na frente da TV ou no meio da galera.
+                </p>
+            </article>
+
+            <article class="card-hobby">
+                <h3>Motos & Carros</h3>
+                <img src="img/img.3.jpeg" alt="Carro e moto na estrada">
+                <p>
+                    Curto muito carros e motos, do visual marcante ao som do motor na estrada. Gosto de ver diferentes modelos, acompanhar novidades do mundo automotivo e admirar a engenharia por trás de cada máquina. Sobre duas ou quatro rodas, é um hobby que traz adrenalina na medida certa e deixa qualquer rolê mais da hora.
+                </p>
+            </article>
+
+            <article class="card-hobby">
+                <h3>Música & Estilo</h3>
+                <img src="img/img.4.jpeg" alt="Fones de ouvido e interface de streaming de música">
+                <p>
+                     A música acompanha minha rotina em todos os momentos, seja estudando, codando ou nos momentos de lazer. Meu gênero musical favorito é o <strong>funk</strong>, ritmo que traz energia e presença. Minha música favorita é <strong>Cavalo de Troia</strong> (MC Kevin).
+                </p>
+                <p class="link-spotify">
+                    <a href="https://open.spotify.com/intl-pt/track/73BxcpQnUWiipj7enBaS4v?si=d40c8c834a5e4b82" target="_blank" rel="noopener noreferrer" class="btn-spotify">
+                        Ouvir Cavalo de Troia no Spotify
+                    </a>
+                </p>
+            </article>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML5 / CSS3</li>
+                <li>JavaScript</li>
+                <li>C / Algoritmos</li>
+                <li>MySQL / Banco de Dados</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+
+            <div class="informacoes-contato">
+                <p><strong>E-mail:</strong> fc7167169@gmail.com</p>
+                <p><strong>Localização:</strong> Brasília - DF</p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/felipe-castro-887986427/" target="_blank" rel="noopener noreferrer">linkedin.com/in/felipecastro</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/castrox07" target="_blank" rel="noopener noreferrer">github.com/castrox07</a></p>
+            </div>
+
+            <hr> 
+
+            <form id="form-contato">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Felipe Castro. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
